@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+:root {
+  --color-black-1: #1d1d1d;
+  --color-black-2: #181818;
+
+  --color-white-1: #fff;
+
+  --color-blue-1: #0096c7;
+  --color-blue-dark-1: #0077b6;
+  --color-blue-dark-2: #023e8a;
+  --color-blue-light-1: #00b4d8;
+  --color-blue-light-2: #48cae4;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  background-color: var(--color-black-1);
+  color: var(--color-white-1);
+}
