@@ -1,0 +1,13 @@
+.logo {
+  width: 100%;
+  margin: 2rem 0 5rem 3.5rem;
+}
+
+.logoLink {
+  display: flex;
+}
+
+.footerLogo {
+  display: none;
+  margin-left: 1rem;
+}

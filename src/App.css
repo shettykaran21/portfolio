@@ -1,0 +1,7 @@
+.navbar:hover .link-text {
+  display: inline;
+}
+
+.navbar:hover .footer-logo {
+  display: inline;
+}
