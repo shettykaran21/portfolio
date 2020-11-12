@@ -12,10 +12,10 @@ import Logo from '../Logo/Logo';
 import styles from './Navbar.module.css';
 
 const navItems = [
-  { navTitle: 'Home', icon: faHome },
-  { navTitle: 'Projects', icon: faProjectDiagram },
-  { navTitle: 'About', icon: faUser },
-  { navTitle: 'Contact', icon: faEnvelope },
+  { navTitle: 'Home', icon: faHome, path: '/' },
+  { navTitle: 'Projects', icon: faProjectDiagram, path: '/projects' },
+  { navTitle: 'About', icon: faUser, path: '/about' },
+  { navTitle: 'Contact', icon: faEnvelope, path: '/contact' },
 ];
 
 const Navbar = () => {

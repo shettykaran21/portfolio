@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 import styles from './NavItem.module.css';
 
@@ -11,7 +12,7 @@ const NavItem = ({ navItem }) => {
       initial={{ scale: 1 }}
       whileHover={{ scale: 1.1, originX: 0 }}
     >
-      <a href="#" className={styles.navLink}>
+      <Link to={navItem.path} className={styles.navLink}>
         <FontAwesomeIcon
           icon={navItem.icon}
           size="lg"
@@ -20,7 +21,7 @@ const NavItem = ({ navItem }) => {
         <span className={`${styles.linkText} link-text`}>
           {navItem.navTitle}
         </span>
-      </a>
+      </Link>
     </motion.li>
   );
 };

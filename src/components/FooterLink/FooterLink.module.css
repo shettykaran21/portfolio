@@ -1,0 +1,9 @@
+.link {
+  color: #fafafb;
+  transition: all 0.2s ease-in-out;
+}
+
+.icon {
+  cursor: pointer;
+  font-size: 3rem;
+}
