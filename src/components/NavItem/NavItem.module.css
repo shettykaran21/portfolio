@@ -14,7 +14,7 @@
 
 .navLink:hover {
   filter: grayscale(0) opacity(1);
-  background-color: var(--color-black-2);
+  background-color: var(--color-black-1);
   color: var(--color-blue-dark-1);
 }
 
